@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0738D62B51CDA30013378F /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0738D52B51CDA30013378F /* EditProfileView.swift */; };
 		4C7955CB2B5176C1001A5500 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C7955CA2B5176C1001A5500 /* Readme.txt */; };
 		4CF4C8872B51412800FDD44E /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */; };
 		4CF4C8892B51412800FDD44E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8882B51412800FDD44E /* ContentView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C0738D52B51CDA30013378F /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		4C7955CA2B5176C1001A5500 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		4CF4C8832B51412800FDD44E /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
@@ -62,6 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C0738D32B51CD810013378F /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				4C0738D42B51CD910013378F /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		4C0738D42B51CD910013378F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C0738D52B51CDA30013378F /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		4CF4C87A2B51412800FDD44E = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +275,7 @@
 		4CF4C8BE2B514F2600FDD44E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				4C0738D32B51CD810013378F /* EditProfile */,
 				4CF4C8CA2B5159BE00FDD44E /* Model */,
 				4CF4C8BF2B514F2B00FDD44E /* View */,
 			);
@@ -360,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF4C8BD2B514F1300FDD44E /* ActivityView.swift in Sources */,
+				4C0738D62B51CDA30013378F /* EditProfileView.swift in Sources */,
 				4CF4C8B92B514EBF00FDD44E /* CreateThreadView.swift in Sources */,
 				4CF4C8B02B514E4500FDD44E /* FeedView.swift in Sources */,
 				4CF4C8CC2B5159CB00FDD44E /* ProfileThreadFilter.swift in Sources */,
