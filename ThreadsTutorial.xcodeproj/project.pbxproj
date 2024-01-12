@@ -38,6 +38,8 @@
 		4C07390F2B51DA8A0013378F /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 4C07390E2B51DA8A0013378F /* FirebaseStorageCombine-Community */; };
 		4C0739132B51DCEA0013378F /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739122B51DCEA0013378F /* RegistrationViewModel.swift */; };
 		4C0739152B51E39F0013378F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739142B51E39F0013378F /* AuthService.swift */; };
+		4C0739192B51E7480013378F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739182B51E7480013378F /* ContentViewModel.swift */; };
+		4C07391B2B51EDFA0013378F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07391A2B51EDFA0013378F /* LoginViewModel.swift */; };
 		4C7955CB2B5176C1001A5500 /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C7955CA2B5176C1001A5500 /* Readme.txt */; };
 		4CF4C8872B51412800FDD44E /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */; };
 		4CF4C8892B51412800FDD44E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8882B51412800FDD44E /* ContentView.swift */; };
@@ -64,6 +66,8 @@
 		4C0738D72B51D6B90013378F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4C0739122B51DCEA0013378F /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		4C0739142B51E39F0013378F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		4C0739182B51E7480013378F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		4C07391A2B51EDFA0013378F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		4C7955CA2B5176C1001A5500 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		4CF4C8832B51412800FDD44E /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				4C0739122B51DCEA0013378F /* RegistrationViewModel.swift */,
+				4C07391A2B51EDFA0013378F /* LoginViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -154,6 +159,22 @@
 				4C0739142B51E39F0013378F /* AuthService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		4C0739162B51E72B0013378F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C0739182B51E7480013378F /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C0739172B51E72D0013378F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CF4C8882B51412800FDD44E /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4CF4C87A2B51412800FDD44E = {
@@ -255,7 +276,8 @@
 		4CF4C89F2B51419600FDD44E /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				4CF4C8882B51412800FDD44E /* ContentView.swift */,
+				4C0739172B51E72D0013378F /* View */,
+				4C0739162B51E72B0013378F /* ViewModel */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -494,6 +516,7 @@
 				4C0739132B51DCEA0013378F /* RegistrationViewModel.swift in Sources */,
 				4C0738D62B51CDA30013378F /* EditProfileView.swift in Sources */,
 				4CF4C8B92B514EBF00FDD44E /* CreateThreadView.swift in Sources */,
+				4C0739192B51E7480013378F /* ContentViewModel.swift in Sources */,
 				4CF4C8B02B514E4500FDD44E /* FeedView.swift in Sources */,
 				4CF4C8CC2B5159CB00FDD44E /* ProfileThreadFilter.swift in Sources */,
 				4C0739152B51E39F0013378F /* AuthService.swift in Sources */,
@@ -509,6 +532,7 @@
 				4CF4C8872B51412800FDD44E /* ThreadsTutorialApp.swift in Sources */,
 				4CF4C8A92B5149F500FDD44E /* ThreadsButtonFieldModifier.swift in Sources */,
 				4CF4C8A42B51480A00FDD44E /* RegistrationView.swift in Sources */,
+				4C07391B2B51EDFA0013378F /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
