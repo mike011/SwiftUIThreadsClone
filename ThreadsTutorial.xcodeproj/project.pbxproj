@@ -40,6 +40,9 @@
 		4C0739152B51E39F0013378F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739142B51E39F0013378F /* AuthService.swift */; };
 		4C0739192B51E7480013378F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739182B51E7480013378F /* ContentViewModel.swift */; };
 		4C07391B2B51EDFA0013378F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07391A2B51EDFA0013378F /* LoginViewModel.swift */; };
+		4C07391D2B5219860013378F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07391C2B5219860013378F /* User.swift */; };
+		4C07391F2B521F250013378F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07391E2B521F250013378F /* UserService.swift */; };
+		4C0739222B52201A0013378F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739212B52201A0013378F /* ProfileViewModel.swift */; };
 		4C7955CB2B5176C1001A5500 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C7955CA2B5176C1001A5500 /* Readme.md */; };
 		4CF4C8872B51412800FDD44E /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */; };
 		4CF4C8892B51412800FDD44E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8882B51412800FDD44E /* ContentView.swift */; };
@@ -68,6 +71,9 @@
 		4C0739142B51E39F0013378F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		4C0739182B51E7480013378F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		4C07391A2B51EDFA0013378F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4C07391C2B5219860013378F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4C07391E2B521F250013378F /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		4C0739212B52201A0013378F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		4C7955CA2B5176C1001A5500 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		4CF4C8832B51412800FDD44E /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
@@ -177,6 +183,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		4C0739202B5220090013378F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C0739212B52201A0013378F /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4CF4C87A2B51412800FDD44E = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +265,7 @@
 		4CF4C89C2B51416500FDD44E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				4C07391E2B521F250013378F /* UserService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -379,6 +394,7 @@
 				4C0738D32B51CD810013378F /* EditProfile */,
 				4CF4C8CA2B5159BE00FDD44E /* Model */,
 				4CF4C8BF2B514F2B00FDD44E /* View */,
+				4C0739202B5220090013378F /* ViewModel */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -404,6 +420,7 @@
 			isa = PBXGroup;
 			children = (
 				4CF4C8CB2B5159CB00FDD44E /* ProfileThreadFilter.swift */,
+				4C07391C2B5219860013378F /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -518,10 +535,13 @@
 				4CF4C8B92B514EBF00FDD44E /* CreateThreadView.swift in Sources */,
 				4C0739192B51E7480013378F /* ContentViewModel.swift in Sources */,
 				4CF4C8B02B514E4500FDD44E /* FeedView.swift in Sources */,
+				4C0739222B52201A0013378F /* ProfileViewModel.swift in Sources */,
 				4CF4C8CC2B5159CB00FDD44E /* ProfileThreadFilter.swift in Sources */,
+				4C07391F2B521F250013378F /* UserService.swift in Sources */,
 				4C0739152B51E39F0013378F /* AuthService.swift in Sources */,
 				4CF4C8B42B514E7F00FDD44E /* ExploreView.swift in Sources */,
 				4CF4C8C12B514F4000FDD44E /* ProfileView.swift in Sources */,
+				4C07391D2B5219860013378F /* User.swift in Sources */,
 				4CF4C8A22B5141F400FDD44E /* LoginView.swift in Sources */,
 				4CF4C8AC2B514C8A00FDD44E /* ThreadsTabView.swift in Sources */,
 				4CF4C8C72B5156EE00FDD44E /* CircularProfileImageView.swift in Sources */,
