@@ -1,0 +1,3 @@
+[submodule "GoogleServices"]
+	path = GoogleServices
+	url = git@github.com:mike011/OAuthKeys.git
