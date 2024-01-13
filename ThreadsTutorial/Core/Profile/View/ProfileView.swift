@@ -16,6 +16,11 @@ struct ProfileView: View {
         let count = CGFloat(ProfileThreadFilter.allCases.count)
         return UIScreen.main.bounds.width / count - 20
     }
+
+    private var currentUser: User? {
+        return viewModel.currentUser
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView(showsIndicators: false) {
@@ -25,16 +30,18 @@ struct ProfileView: View {
                         VStack(alignment: .leading, spacing: 12) {
                             // full name and user name
                             VStack(alignment: .leading, content: {
-                                Text("Homer Simpson")
+                                Text(currentUser?.fullname ?? "")
                                     .font(.title2)
                                     .fontWeight(.semibold)
 
-                                Text("homer_simpson")
+                                Text(currentUser?.username ?? "")
                                     .font(.subheadline)
                             })
 
-                            Text("Cartoon Character")
-                                .font(.footnote)
+                            if let bio = currentUser?.bio {
+                                Text(bio)
+                                    .font(.footnote)
+                            }
 
                             Text("3 follower")
                                 .font(.caption)

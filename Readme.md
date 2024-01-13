@@ -2,4 +2,4 @@ Youtube tutorial on creating a Threads Clone
 
 [Youtube Tutorial](https://youtu.be/MfwdchNNW78)
 
-Current progress: 2:19:00
+Current progress: 2:36:11
