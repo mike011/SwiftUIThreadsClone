@@ -54,6 +54,7 @@
 		4C07396F2B55C0840013378F /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07396E2B55C0840013378F /* Thread.swift */; };
 		4C0739722B55C17E0013378F /* CreateThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739712B55C17E0013378F /* CreateThreadViewModel.swift */; };
 		4C0739742B55C1990013378F /* ThreadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739732B55C1990013378F /* ThreadService.swift */; };
+		4C0739772B55C6DC0013378F /* FieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739762B55C6DC0013378F /* FieldViewModel.swift */; };
 		4C7955CB2B5176C1001A5500 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C7955CA2B5176C1001A5500 /* Readme.md */; };
 		4CF4C8872B51412800FDD44E /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */; };
 		4CF4C8892B51412800FDD44E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8882B51412800FDD44E /* ContentView.swift */; };
@@ -95,6 +96,7 @@
 		4C07396E2B55C0840013378F /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		4C0739712B55C17E0013378F /* CreateThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadViewModel.swift; sourceTree = "<group>"; };
 		4C0739732B55C1990013378F /* ThreadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadService.swift; sourceTree = "<group>"; };
+		4C0739762B55C6DC0013378F /* FieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldViewModel.swift; sourceTree = "<group>"; };
 		4C7955CA2B5176C1001A5500 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		4CF4C8832B51412800FDD44E /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
@@ -273,6 +275,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		4C0739752B55C6D20013378F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C0739762B55C6DC0013378F /* FieldViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4CF4C87A2B51412800FDD44E = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +423,7 @@
 			isa = PBXGroup;
 			children = (
 				4CF4C8AE2B514E3400FDD44E /* View */,
+				4C0739752B55C6D20013378F /* ViewModel */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -640,6 +651,7 @@
 				4C0739722B55C17E0013378F /* CreateThreadViewModel.swift in Sources */,
 				4CF4C8A22B5141F400FDD44E /* LoginView.swift in Sources */,
 				4CF4C8AC2B514C8A00FDD44E /* ThreadsTabView.swift in Sources */,
+				4C0739772B55C6DC0013378F /* FieldViewModel.swift in Sources */,
 				4C0739312B523B250013378F /* UserContentListView.swift in Sources */,
 				4CF4C8C72B5156EE00FDD44E /* CircularProfileImageView.swift in Sources */,
 				4CF4C8C92B51576100FDD44E /* UserCell.swift in Sources */,

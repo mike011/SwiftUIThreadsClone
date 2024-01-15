@@ -5,6 +5,7 @@
 //  Created by Michael Charland on 2024-01-12.
 //
 
+import Firebase
 import SwiftUI
 
 extension PreviewProvider {
@@ -22,4 +23,10 @@ class DeveloperPreview {
                     username: "homer",
                     profileImageUrl: nil,
                     bio: nil)
+
+    let thread = Thread(threadID: nil,
+                        ownerUid: "123",
+                        caption: "This is a test thread",
+                        timestamp: Timestamp(),
+                        like: 0)
 }
