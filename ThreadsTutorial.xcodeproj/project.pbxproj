@@ -214,7 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				4C07392A2B52360E0013378F /* CurrentUserProfileView.swift */,
-				4C0739212B52201A0013378F /* ProfileViewModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -222,6 +221,7 @@
 		4C07392C2B5236480013378F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4C0739212B52201A0013378F /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";

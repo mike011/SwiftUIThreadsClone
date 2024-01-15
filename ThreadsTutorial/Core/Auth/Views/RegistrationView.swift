@@ -17,7 +17,6 @@ struct RegistrationView: View {
             Spacer()
             Image("threads-app-icon")
                 .resizable()
-                .scaledToFit()
                 .frame(width: 120, height: 120)
                 .padding()
         }

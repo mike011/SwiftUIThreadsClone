@@ -62,3 +62,15 @@ class AuthService {
         UserService.shared.currentUser = user
     }
 }
+
+
+final class HomeViewModel {
+
+    @MainActor var images: [UIImage] = []
+
+    @MainActor
+    func resetImages() {
+        images = []
+    }
+}
+	
