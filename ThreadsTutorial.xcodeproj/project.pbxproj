@@ -48,6 +48,8 @@
 		4C07392F2B52380E0013378F /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07392E2B52380E0013378F /* ProfileHeaderView.swift */; };
 		4C0739312B523B250013378F /* UserContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739302B523B250013378F /* UserContentListView.swift */; };
 		4C0739332B5245450013378F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C0739322B5245450013378F /* GoogleService-Info.plist */; };
+		4C0739392B54B6E30013378F /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0739382B54B6E30013378F /* EditProfileViewModel.swift */; };
+		4C07393B2B54B9A80013378F /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07393A2B54B9A80013378F /* ImageUploader.swift */; };
 		4C7955CB2B5176C1001A5500 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4C7955CA2B5176C1001A5500 /* Readme.md */; };
 		4CF4C8872B51412800FDD44E /* ThreadsTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */; };
 		4CF4C8892B51412800FDD44E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF4C8882B51412800FDD44E /* ContentView.swift */; };
@@ -84,6 +86,8 @@
 		4C07392E2B52380E0013378F /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		4C0739302B523B250013378F /* UserContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentListView.swift; sourceTree = "<group>"; };
 		4C0739322B5245450013378F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "GoogleServices/Threads/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4C0739382B54B6E30013378F /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		4C07393A2B54B9A80013378F /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		4C7955CA2B5176C1001A5500 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		4CF4C8832B51412800FDD44E /* ThreadsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF4C8862B51412800FDD44E /* ThreadsTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTutorialApp.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				4C0738D42B51CD910013378F /* View */,
+				4C0739372B54B6DB0013378F /* ViewModel */,
 			);
 			path = EditProfile;
 			sourceTree = "<group>";
@@ -235,6 +240,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		4C0739372B54B6DB0013378F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C0739382B54B6E30013378F /* EditProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4CF4C87A2B51412800FDD44E = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				4C07391E2B521F250013378F /* UserService.swift */,
+				4C07393A2B54B9A80013378F /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -582,12 +596,14 @@
 				4CF4C8B92B514EBF00FDD44E /* CreateThreadView.swift in Sources */,
 				4C0739192B51E7480013378F /* ContentViewModel.swift in Sources */,
 				4CF4C8B02B514E4500FDD44E /* FeedView.swift in Sources */,
+				4C07393B2B54B9A80013378F /* ImageUploader.swift in Sources */,
 				4C0739222B52201A0013378F /* ProfileViewModel.swift in Sources */,
 				4CF4C8CC2B5159CB00FDD44E /* ProfileThreadFilter.swift in Sources */,
 				4C07392B2B52360E0013378F /* CurrentUserProfileView.swift in Sources */,
 				4C07391F2B521F250013378F /* UserService.swift in Sources */,
 				4C0739152B51E39F0013378F /* AuthService.swift in Sources */,
 				4C07392F2B52380E0013378F /* ProfileHeaderView.swift in Sources */,
+				4C0739392B54B6E30013378F /* EditProfileViewModel.swift in Sources */,
 				4CF4C8B42B514E7F00FDD44E /* ExploreView.swift in Sources */,
 				4CF4C8C12B514F4000FDD44E /* ProfileView.swift in Sources */,
 				4C07391D2B5219860013378F /* User.swift in Sources */,
