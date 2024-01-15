@@ -2,7 +2,7 @@ Youtube tutorial on creating a Threads Clone
 
 [Youtube Tutorial](https://youtu.be/MfwdchNNW78)
 
-Current progress: 4:31:26
+Current progress: Completed
 
 Tech Used:
 - Swift 5.9
