@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UserContentListViewModel: ObservableObject {
+class UserContentListViewModel: ObservableObject, @unchecked Sendable {
     @Published var threads = [Thread]()
 
     let user: User
@@ -17,7 +17,6 @@ class UserContentListViewModel: ObservableObject {
         Task { try await fetchUserThreads() }
     }
 
-    @MainActor
     func fetchUserThreads() async throws {
         var threads = try await ThreadService.fetchUserThreads(uid: user.id)
 

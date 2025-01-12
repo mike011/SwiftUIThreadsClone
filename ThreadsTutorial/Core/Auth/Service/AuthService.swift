@@ -5,10 +5,10 @@
 //  Created by Michael Charland on 2024-01-12.
 //
 
-import Firebase
+@preconcurrency import Firebase
 import FirebaseFirestoreSwift
 
-class AuthService {
+class AuthService: @unchecked Sendable {
 
     @Published var userSession: FirebaseAuth.User?
 

@@ -8,6 +8,7 @@
 import SwiftUI
 import PhotosUI
 
+@MainActor
 struct EditProfileView: View {
     let user: User
     @State private var bio = ""
@@ -34,7 +35,7 @@ struct EditProfileView: View {
 
                         Spacer()
 
-                        PhotosPicker(selection: $viewModel.selectedItem) {
+                        PhotosPicker(selection: $viewModel.selectedItem) { [viewModel] in
                             if let image = viewModel.profileImage {
                                 image
                                     .resizable()

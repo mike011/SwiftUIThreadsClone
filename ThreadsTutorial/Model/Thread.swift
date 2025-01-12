@@ -8,7 +8,7 @@
 import Firebase
 import FirebaseFirestoreSwift
 
-struct Thread: Identifiable, Codable {
+struct Thread: Identifiable, @unchecked Sendable, Codable {
     @DocumentID var threadID: String?
     var id: String {
         return threadID ?? NSUUID().uuidString

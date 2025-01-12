@@ -14,6 +14,7 @@ extension PreviewProvider {
     }
 }
 
+@MainActor
 class DeveloperPreview {
     static let shared = DeveloperPreview()
 

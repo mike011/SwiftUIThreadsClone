@@ -7,7 +7,7 @@
 
 import Firebase
 
-class CreateThreadViewModel: ObservableObject {
+class CreateThreadViewModel: ObservableObject, @unchecked Sendable {
     @Published var caption = ""
 
     func uploadThread() async throws {
